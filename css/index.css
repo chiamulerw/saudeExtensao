@@ -7,6 +7,10 @@ body{
 	font-size: 14px;
 }
 
+main{
+	display: flex;
+}
+
 header{
 	background-color: #333;
 	height: 3em;
@@ -32,12 +36,18 @@ header .container:before{
 	vertical-align:	middle;
 }
 
-.container{
-	width: 60%;
-	height: 100%;
-	margin: 0 auto;
+.container-tabela{
+	float: left;
+	height: 50%;
+	width:50%;
+	margin-left: 50px;
 }
-
+.container-adiciona{
+	float: right;
+	height: 50%;
+	width:50%;
+	margin-right: 50px;
+}
 section{
 	margin: 2em 0;
 	overflow: hidden;
