@@ -5,6 +5,7 @@
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	background-color: #dad7cd;
 }
 
 main{
@@ -12,7 +13,7 @@ main{
 }
 
 header{
-	background-color: #333;
+	background-color: #344e41;
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -22,6 +23,8 @@ header h1{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+	margin-top: 5px;
+	margin-left: 10px;
 }
 header h2{
 	font-size: 2em;
@@ -41,13 +44,16 @@ header .container:before{
 	height: 50%;
 	width:50%;
 	margin-left: 50px;
+	margin-right: 10px;
 }
 .container-adiciona{
 	float: right;
 	height: 50%;
 	width:50%;
 	margin-right: 50px;
+	margin-left: 10px;
 }
+
 section{
 	margin: 2em 0;
 	overflow: hidden;
@@ -67,17 +73,19 @@ table{
     table-layout: fixed;
 
 }
-
+thead{
+	background-color: #A3B18A;
+}
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #3a5a40;
 	text-align: center;
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: #A3B18A;
 }
 
 label{
@@ -90,9 +98,12 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #3a5a40;
 	padding: .7em;
 	width: 100%;
+}
+textarea::placeholder{
+	color: #A3B18A;
 }
 
 .campo-medio{
@@ -107,7 +118,7 @@ label{
 }
 
 button{
-	padding: .5em 2em;
+	padding: .4em 2em;
 	border: 0;
 	border-bottom: 3px solid;
 	font-size: 1.2em;
@@ -115,8 +126,8 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#588157;
+	border-color: #3a5a40;
 	width: 20%;
     display: block;
     clear: both;
