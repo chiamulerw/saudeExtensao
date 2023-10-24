@@ -176,3 +176,15 @@ button[disabled=disabled], button:disabled {
 .invisivel{
 	display: none;
 }
+
+.imagem{
+	width: 80%;
+	height: 40%;
+	
+}
+.imagemum, .imagemdois{
+	width: 30%;
+	height: 50% ;
+	margin-left: 250px;
+	
+}
